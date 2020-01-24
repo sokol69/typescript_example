@@ -1,4 +1,4 @@
-const getAverage = (a: number, b: number, c: number): number => {
+function getAverage(a: number, b: number, c: number): number {
   const avg: number = (a + b + c) / 3;
 
   return avg;
